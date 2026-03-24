@@ -108,13 +108,13 @@ app.registerExtension({
         search_placeholder: "🔍 搜索节点...",
         stats: "共 {categories} 个分类，{nodes} 个节点 | Ctrl+Shift+R",
         no_results: "😕 未找到匹配的节点",
-        tooltip: "XingLuanApi 节点面板 (Ctrl+Shift+R)",
+        tooltip: "XingLuan 节点面板 (Ctrl+Shift+R)",
       },
       en: {
         search_placeholder: "🔍 Search nodes...",
         stats: "{categories} categories, {nodes} nodes | Ctrl+Shift+R",
         no_results: "😕 No matching nodes found",
-        tooltip: "XingLuanApi Node Panel (Ctrl+Shift+R)",
+        tooltip: "XingLuan Node Panel (Ctrl+Shift+R)",
       },
     };
 
@@ -168,7 +168,7 @@ app.registerExtension({
         const category = nodeClass.category;
         if (
           !category ||
-          !category.toLowerCase().startsWith("xingluanapi/")
+          !category.toLowerCase().startsWith("xingluan/")
         )
           continue;
 
@@ -206,9 +206,9 @@ app.registerExtension({
     };
 
     app.extensionManager.registerSidebarTab({
-      id: "rh-openapi-panel",
+      id: "xl-openapi-panel",
       icon: "pi pi-cloud",
-      title: "XingLuanApi OpenAPI",
+      title: "XingLuan OpenAPI",
       tooltip: t("tooltip"),
       type: "custom",
       render: (el) => {
@@ -245,7 +245,7 @@ app.registerExtension({
 
         const headerTitle = document.createElement("span");
         headerTitle.style.cssText = "font-size:14px;font-weight:600;opacity:0.85;";
-        headerTitle.textContent = "RunningHub OpenAPI";
+        headerTitle.textContent = "XingLuan OpenAPI";
 
         const closeBtn = document.createElement("button");
         closeBtn.textContent = "\u00d7";
