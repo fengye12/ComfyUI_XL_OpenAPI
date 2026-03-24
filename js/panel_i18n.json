@@ -1,0 +1,44 @@
+{
+    "categories": {
+      "zh": {
+        "RHArt Image": "🖼️ RH 全能图像",
+        "RHArt Video": "🎬 RH 全能视频",
+        "RHArt Video G": "🎥 RH 全能视频G",
+        "RHArt Text": "📝 RH 多模态文本"
+      },
+      "en": {
+        "RHArt Image": "🖼️ RHArt Image",
+        "RHArt Video": "🎬 RHArt Video",
+        "RHArt Video G": "🎥 RHArt Video G",
+        "RHArt Text": "📝 RHArt Text"
+      }
+    },
+    "nodes": {
+      "zh": {
+        "RH_RhartVideoSOfficialImageToVideoRealistic": "RH 全能视频S-图生视频-支持真人-官方稳定版",
+        "RH_RhartVideoSImageToVideo": "RH 全能视频S-图生视频-低价渠道版",
+        "RH_RhartVideoSTextToVideo": "RH 全能视频S-文生视频-低价渠道版",
+        "RH_RhartImageV1Edit": "RH 全能图片V1-图生图-低价渠道版"
+      },
+      "en": {
+        "RH_RhartVideoSOfficialImageToVideoRealistic": "RH Sora 2 Image to Video Realistic Official Stable",
+        "RH_RhartVideoSImageToVideo": "RH Sora 2 Image to Video Channel Low Price",
+        "RH_RhartVideoSTextToVideo": "RH Sora 2 Text to Video Channel Low Price",
+        "RH_RhartImageV1Edit": "RH Nano Banana Edit Channel Low Price"
+      }
+    },
+    "ui": {
+      "zh": {
+        "search_placeholder": "🔍 搜索节点...",
+        "stats": "共 {categories} 个分类，{nodes} 个节点 | Ctrl+Shift+R",
+        "no_results": "😕 未找到匹配的节点",
+        "tooltip": "XingluanApi 节点面板 (Ctrl+Shift+R)"
+      },
+      "en": {
+        "search_placeholder": "🔍 Search nodes...",
+        "stats": "{categories} categories, {nodes} nodes | Ctrl+Shift+R",
+        "no_results": "😕 No matching nodes found",
+        "tooltip": "XingluanApi Node Panel (Ctrl+Shift+R)"
+      }
+    }
+  }
