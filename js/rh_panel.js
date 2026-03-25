@@ -117,19 +117,20 @@ app.registerExtension({
         tooltip: "XingLuan Node Panel (Ctrl+Shift+R)",
       },
     };
-
     const fallbackCategories = {
       zh: {
-        "RHArt Image": "🖼️ RH 全能图像",
-        "RHArt Video": "🎬 RH 全能视频",
-        "RHArt Video G": "🎥 RH 全能视频G",
-        "RHArt Text": "📝 RH 多模态文本",
+        "XL Audioloaders":"🎵 XL 音频",
+        "XL Image":"🖼️ XL 图片",
+        "XL VideoLoaders":"🎬 XL 视频",
+        "XL 内存清理": "🖼️ XL 内存清理",
+        "XL Math":"📝 XL 三目运算"
       },
       en: {
-        "RHArt Image": "🖼️ RHArt Image",
-        "RHArt Video": "🎬 RHArt Video",
-        "RHArt Video G": "🎥 RHArt Video G",
-        "RHArt Text": "📝 RHArt Text",
+        "XL Audioloaders":"🎵 XL Load Audio From URL",
+        "XL Image":"🖼️ XL Load Image From URL",
+        "XL VideoLoaders":"🎬 XL Load Video From URL",
+        "XL 内存清理": "🖼️ XL Memory Cleanup",
+        "XL Math":"📝 XL Math Ternary"
       },
     };
 
