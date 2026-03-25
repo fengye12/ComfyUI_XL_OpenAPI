@@ -122,14 +122,14 @@ app.registerExtension({
         "XL Audioloaders":"🎵 XL 音频",
         "XL Image":"🖼️ XL 图片",
         "XL VideoLoaders":"🎬 XL 视频",
-        "XL 内存清理": "🖼️ XL 内存清理",
+        "XL 内存清理": "🧹 XL 内存清理",
         "XL Math":"📝 XL 三目运算"
       },
       en: {
         "XL Audioloaders":"🎵 XL Load Audio From URL",
         "XL Image":"🖼️ XL Load Image From URL",
         "XL VideoLoaders":"🎬 XL Load Video From URL",
-        "XL 内存清理": "🖼️ XL Memory Cleanup",
+        "XL 内存清理": "🧹 XL Memory Cleanup",
         "XL Math":"📝 XL Math Ternary"
       },
     };
