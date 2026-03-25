@@ -142,12 +142,12 @@ app.registerExtension({
       ((i18n.ui && i18n.ui[locale]) || fallbackUI[locale] || fallbackUI.en)[
         key
       ] || key;
-
     const categoryOrder = [
-      "RHArt Image",
-      "RHArt Video",
-      "RHArt Video G",
-      "RHArt Text",
+      "XL Audioloaders",
+      "XL Image",
+      "XL VideoLoaders",
+      "XL 内存清理",
+      "XL Math",
     ];
 
     let allowedNodes = null;

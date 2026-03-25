@@ -1,30 +1,34 @@
 {
     "categories": {
       "zh": {
-        "RHArt Image": "🖼️ RH 全能图像",
-        "RHArt Video": "🎬 RH 全能视频",
-        "RHArt Video G": "🎥 RH 全能视频G",
-        "RHArt Text": "📝 RH 多模态文本"
+        "XL Audioloaders":"🎵 XL 音频",
+        "XL Image":"🖼️ XL 图片",
+        "XL VideoLoaders":"🎬 XL 视频",
+        "XL 内存清理": "🖼️ XL 内存清理",
+        "XL Math":"📝 XL 三目运算"
       },
       "en": {
-        "RHArt Image": "🖼️ RHArt Image",
-        "RHArt Video": "🎬 RHArt Video",
-        "RHArt Video G": "🎥 RHArt Video G",
-        "RHArt Text": "📝 RHArt Text"
+        "XL Audioloaders":"🎵 XL Load Audio From URL",
+        "XL Image":"🖼️ XL Load Image From URL",
+        "XL VideoLoaders":"🎬 XL Load Video From URL",
+        "XL 内存清理": "🖼️ XL Memory Cleanup",
+        "XL Math":"📝 XL Math Ternary"
       }
     },
     "nodes": {
       "zh": {
-        "RH_RhartVideoSOfficialImageToVideoRealistic": "RH 全能视频S-图生视频-支持真人-官方稳定版",
-        "RH_RhartVideoSImageToVideo": "RH 全能视频S-图生视频-低价渠道版",
-        "RH_RhartVideoSTextToVideo": "RH 全能视频S-文生视频-低价渠道版",
-        "RH_RhartImageV1Edit": "RH 全能图片V1-图生图-低价渠道版"
+        "XL_ClearMemoryDeepNode": "XL 内存清理",
+        "XL_LoadAudioFromURL": "XL 从 URL 加载音频",
+        "XL_LoadImageFromURL": "XL 从 URL 加载音频",
+        "XL_VideoURLLoader": "XL 从 URL 加载视频",
+        "XL_MathTernary": "XL 三目运算"
       },
       "en": {
-        "RH_RhartVideoSOfficialImageToVideoRealistic": "RH Sora 2 Image to Video Realistic Official Stable",
-        "RH_RhartVideoSImageToVideo": "RH Sora 2 Image to Video Channel Low Price",
-        "RH_RhartVideoSTextToVideo": "RH Sora 2 Text to Video Channel Low Price",
-        "RH_RhartImageV1Edit": "RH Nano Banana Edit Channel Low Price"
+        "XL_ClearMemoryDeepNode": "XL Memory Cleanup",
+        "XL_LoadAudioFromURL": "XL Load Audio From URL",
+        "XL_LoadImageFromURL": "XL Load Image From URL",
+        "XL_VideoURLLoader": "XL Load Video From URL",
+        "XL_MathTernary": "XL Math Ternary"
       }
     },
     "ui": {
